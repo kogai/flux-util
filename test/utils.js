@@ -1,5 +1,5 @@
 const assert = require('assert');
-const merge = require('src/utils').merge;
+const merge = require('lib/utils').merge;
 
 describe('便利関数', ()=> {
   it('オブジェクトをマージできる', ()=> {

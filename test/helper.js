@@ -5,7 +5,7 @@ const thunkMiddleware = require('redux-thunk');
 const createStore = redux.createStore;
 const applyMiddleware = redux.applyMiddleware;
 
-const actionVerificationRedux = require('src/createAction').actionVerificationRedux;
+const actionVerification = require('lib/createAction').actionVerification;
 
 function sampleReducer(_state, action) {
   const state = _state ? _state : {};
@@ -51,7 +51,7 @@ function createInitialStore() {
   const actionInformer = actionSpy.actionInformer;
 
   const createStoreWithMiddleware = applyMiddleware(
-    actionVerificationRedux,
+    actionVerification,
     actionInformer,
     thunkMiddleware
   )(createStore);

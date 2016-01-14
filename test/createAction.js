@@ -1,5 +1,5 @@
 const assert = require('assert');
-const createAction = require('src/createAction').createAction;
+const createAction = require('lib/createAction').createAction;
 const createInitialStore = require('test/helper').createInitialStore;
 
 describe('Actionの生成関数', ()=> {

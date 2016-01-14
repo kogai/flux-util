@@ -1,5 +1,5 @@
 const assert = require('assert');
-const createRESTConstants = require('src/createConstant').createRESTConstants;
+const createRESTConstants = require('lib/createConstant').createRESTConstants;
 
 describe('定数の生成関数', ()=> {
   const TEST_ACTION_1 = 'TEST_ACTION_1';
