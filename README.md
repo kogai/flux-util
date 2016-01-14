@@ -1,6 +1,6 @@
 # redux-util
 
-Utility tools for flux based project.
+Utility tools for redux based project.
 It has purpose that do not rely on babel(or other transpiler).
 
 
