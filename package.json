@@ -1,6 +1,6 @@
 {
-  "name": "flux-util",
-  "version": "1.0.0",
+  "name": "@kogai/flux-util",
+  "version": "0.1.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
