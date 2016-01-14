@@ -6,7 +6,9 @@
   "scripts": {
     "test": "$(npm bin)/mocha",
     "test:watch": "$(npm bin)/mocha --watch",
-    "update": "npm publish --access=public"
+    "update:patch": "npm version patch && npm publish --access=public",
+    "update:major": "npm version major && npm publish --access=public",
+    "update:minor": "npm version minor && npm publish --access=public"
   },
   "keywords": [
     "flux",
