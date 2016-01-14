@@ -5,10 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "test": "$(npm bin)/mocha",
-    "test:watch": "$(npm bin)/mocha --watch"
+    "test:watch": "$(npm bin)/mocha --watch",
+    "update": "npm publish --access=public"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [ "flux", "redux" ],
+  "author": "kogai",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^2.3.4",
     "redux": "^3.0.5",
