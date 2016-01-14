@@ -14,6 +14,10 @@
     "flux",
     "redux"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kogai/flux-util"
+  },
   "author": "kogai",
   "license": "MIT",
   "devDependencies": {
